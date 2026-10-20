@@ -1,0 +1,35 @@
+{
+  "trackMode": "anyAudioApp",
+  "trackedProcesses": [
+    "msedge",
+    "chrome",
+    "firefox",
+    "brave",
+    "vivaldi",
+    "opera",
+    "chromium"
+  ],
+  "excludeProcesses": [
+    "wallpaper64",
+    "nvcontainer"
+  ],
+  "pollIntervalMs": 300,
+  "retrySeconds": 5,
+  "syncOnNewSession": true,
+  "defaultHandling": "pin",
+  "notifyOnSwitch": false,
+  "showTrayIcon": true,
+  "trayIconStyle": "speaker",
+  "trayIconColor": "#2F6FEB",
+  "applyOnStart": true,
+  "monitorDevices": {
+    "\\\\.\\DISPLAY1": {
+      "label": "Main",
+      "device": "default"
+    },
+    "\\\\.\\DISPLAY2": {
+      "label": "Secondary",
+      "device": "PUT_YOUR_DEVICE_NAME_HERE"
+    }
+  }
+}
