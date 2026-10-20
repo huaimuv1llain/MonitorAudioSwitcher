@@ -1,0 +1,9 @@
+# Runtime state (machine specific)
+config.json
+*.log
+
+# Editor / OS noise
+.vs/
+.vscode/
+Thumbs.db
+desktop.ini
