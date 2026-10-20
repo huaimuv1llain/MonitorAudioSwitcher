@@ -1,0 +1,13 @@
+# The .ps1 MUST keep its UTF-8 BOM (EF BB BF): Windows PowerShell 5.1 reads
+# BOM-less files as ANSI and would mangle every non-ASCII character.
+# Do not strip the BOM, and do not convert this file to UTF-8 without BOM.
+*.ps1 text eol=crlf
+
+*.cs   text eol=crlf
+*.vbs  text eol=crlf
+*.md   text eol=lf
+*.json text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+LICENSE text eol=lf
+*.png  binary
